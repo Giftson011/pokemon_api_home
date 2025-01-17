@@ -35,3 +35,5 @@ CREATE TABLE pokemon (
     image_url TEXT
 );
 ```
+### 2. Populate the database with Pokémon data:
+
