@@ -36,4 +36,24 @@ CREATE TABLE pokemon (
 );
 ```
 ### 2. Populate the database with Pokémon data:
+- Run the `populate_database.js` script:
+```node populate_database.js ```
+- This script fetches Pokémon data from the PokéAPI and populates the `pokemon` table.
 
+## iv. Running the App
+
+### 1. Start the Backend Server:
+
+- Navigate to the project directory and run:
+```node server.js```
+- The server will start on `http://localhost:3000`.
+
+### 2. View the Frontend:
+
+- Open `index.html` in your browser to access the application.
+
+### 3. Explore the API:
+
+- Fetch all Pokémon: `GET /api/pokemon`
+- Search Pokémon by name or type: `GET /api/pokemon?search=<query>`
+- Fetch Pokémon by ID: `GET /api/pokemon/:id`
