@@ -57,3 +57,7 @@ CREATE TABLE pokemon (
 - Fetch all Pokémon: `GET /api/pokemon`
 - Search Pokémon by name or type: `GET /api/pokemon?search=<query>`
 - Fetch Pokémon by ID: `GET /api/pokemon/:id`
+
+###Note:
+- This is the website link, which fetches data directly from an API without using a database.
+- https://beautiful-cassata-b1d83b.netlify.app/
